@@ -1,0 +1,9 @@
+SEFI_Type,Count,Condition,Total_Experiments
+Memory,11,Before,31
+Scheduling,2,Before,31
+Stack,2,Before,31
+Freeze,16,Before,31
+Memory,0,After,13
+Scheduling,9,After,13
+Stack,0,After,13
+Freeze,4,After,13
