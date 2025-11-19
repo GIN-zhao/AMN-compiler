@@ -6,14 +6,14 @@
 // SPDX-License-Identifier: Apache-2.0
 //==============================================================================
 
-#ifndef SPNC_MLIR_INCLUDE_DIALECT_HISPN_HISPNENUMS_H
-#define SPNC_MLIR_INCLUDE_DIALECT_HISPN_HISPNENUMS_H
+#ifndef SPNC_MLIR_INCLUDE_DIALECT_LOSPN_LOSPNATTRIBUTES_H
+#define SPNC_MLIR_INCLUDE_DIALECT_LOSPN_LOSPNATTRIBUTES_H
 
+#include "mlir/IR/Attributes.h"
+#include "mlir/IR/AttributeSupport.h"
+#include "mlir/IR/Identifier.h"
+#include "mlir/IR/BuiltinTypes.h"
 #include "mlir/IR/BuiltinAttributes.h"
-#include "llvm/ADT/DenseMap.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/ADT/StringSwitch.h"
+#include "LoSPN/LoSPNAttributes.h.inc"
 
-#include "HiSPN/HiSPNEnums.h.inc"
-
-#endif // SPNC_MLIR_INCLUDE_DIALECT_HISPN_HISPNENUMS_H
+#endif //SPNC_MLIR_INCLUDE_DIALECT_LOSPN_LOSPNATTRIBUTES_H

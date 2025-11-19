@@ -5,6 +5,7 @@
 #  file that was distributed with this source code.
 #  SPDX-License-Identifier: Apache-2.0
 # ==============================================================================
+
 add_mlir_dialect(HiSPNOps hi_spn)
 add_mlir_doc(HiSPNDialect HiSPNDialect HiSPN/ -gen-dialect-doc)
 add_mlir_doc(HiSPNOps HiSPNOps HiSPN/ -gen-op-doc)
